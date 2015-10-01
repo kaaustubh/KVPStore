@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32F88F011BBBBEF2004A885D /* KVPStore.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 32F88F001BBBBEF2004A885D /* KVPStore.h */; };
+		32F88F031BBBBEF2004A885D /* KVPStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F88F021BBBBEF2004A885D /* KVPStore.m */; };
+		32F88F091BBBBEF2004A885D /* libKVPStore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F88EFD1BBBBEF2004A885D /* libKVPStore.a */; };
+		32F88F191BBBBF07004A885D /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F88F181BBBBF07004A885D /* DBManager.m */; };
+		32F88F1C1BBBC17A004A885D /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F88F1B1BBBC17A004A885D /* Constants.m */; };
+		32F88F241BBBF00A004A885D /* KVPStoreTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F88F231BBBF00A004A885D /* KVPStoreTest.m */; };
+		32F88F261BBBF8FF004A885D /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F88F251BBBF8FF004A885D /* libsqlite3.0.dylib */; };
+		32F88F271BBBF923004A885D /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F88F251BBBF8FF004A885D /* libsqlite3.0.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32F88F0A1BBBBEF2004A885D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32F88EF51BBBBEF2004A885D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32F88EFC1BBBBEF2004A885D;
+			remoteInfo = KVPStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		32F88EFB1BBBBEF2004A885D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				32F88F011BBBBEF2004A885D /* KVPStore.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		32F88EFD1BBBBEF2004A885D /* libKVPStore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKVPStore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F88F001BBBBEF2004A885D /* KVPStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVPStore.h; sourceTree = "<group>"; };
+		32F88F021BBBBEF2004A885D /* KVPStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVPStore.m; sourceTree = "<group>"; };
+		32F88F081BBBBEF2004A885D /* KVPStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVPStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F88F0E1BBBBEF2004A885D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32F88F171BBBBF07004A885D /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		32F88F181BBBBF07004A885D /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		32F88F1A1BBBC17A004A885D /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		32F88F1B1BBBC17A004A885D /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		32F88F231BBBF00A004A885D /* KVPStoreTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVPStoreTest.m; sourceTree = "<group>"; };
+		32F88F251BBBF8FF004A885D /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32F88EFA1BBBBEF2004A885D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F88F261BBBF8FF004A885D /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F88F051BBBBEF2004A885D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F88F271BBBF923004A885D /* libsqlite3.0.dylib in Frameworks */,
+				32F88F091BBBBEF2004A885D /* libKVPStore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32F88EF41BBBBEF2004A885D = {
+			isa = PBXGroup;
+			children = (
+				32F88F251BBBF8FF004A885D /* libsqlite3.0.dylib */,
+				32F88EFF1BBBBEF2004A885D /* KVPStore */,
+				32F88F0C1BBBBEF2004A885D /* KVPStoreTests */,
+				32F88EFE1BBBBEF2004A885D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32F88EFE1BBBBEF2004A885D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32F88EFD1BBBBEF2004A885D /* libKVPStore.a */,
+				32F88F081BBBBEF2004A885D /* KVPStoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32F88EFF1BBBBEF2004A885D /* KVPStore */ = {
+			isa = PBXGroup;
+			children = (
+				32F88F001BBBBEF2004A885D /* KVPStore.h */,
+				32F88F021BBBBEF2004A885D /* KVPStore.m */,
+				32F88F171BBBBF07004A885D /* DBManager.h */,
+				32F88F181BBBBF07004A885D /* DBManager.m */,
+				32F88F1A1BBBC17A004A885D /* Constants.h */,
+				32F88F1B1BBBC17A004A885D /* Constants.m */,
+			);
+			path = KVPStore;
+			sourceTree = "<group>";
+		};
+		32F88F0C1BBBBEF2004A885D /* KVPStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				32F88F0D1BBBBEF2004A885D /* Supporting Files */,
+				32F88F231BBBF00A004A885D /* KVPStoreTest.m */,
+			);
+			path = KVPStoreTests;
+			sourceTree = "<group>";
+		};
+		32F88F0D1BBBBEF2004A885D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32F88F0E1BBBBEF2004A885D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32F88EFC1BBBBEF2004A885D /* KVPStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32F88F111BBBBEF2004A885D /* Build configuration list for PBXNativeTarget "KVPStore" */;
+			buildPhases = (
+				32F88EF91BBBBEF2004A885D /* Sources */,
+				32F88EFA1BBBBEF2004A885D /* Frameworks */,
+				32F88EFB1BBBBEF2004A885D /* CopyFiles */,
+				32ABEFDD1BBCFA3400DE13DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVPStore;
+			productName = KVPStore;
+			productReference = 32F88EFD1BBBBEF2004A885D /* libKVPStore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		32F88F071BBBBEF2004A885D /* KVPStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32F88F141BBBBEF2004A885D /* Build configuration list for PBXNativeTarget "KVPStoreTests" */;
+			buildPhases = (
+				32F88F041BBBBEF2004A885D /* Sources */,
+				32F88F051BBBBEF2004A885D /* Frameworks */,
+				32F88F061BBBBEF2004A885D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32F88F0B1BBBBEF2004A885D /* PBXTargetDependency */,
+			);
+			name = KVPStoreTests;
+			productName = KVPStoreTests;
+			productReference = 32F88F081BBBBEF2004A885D /* KVPStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32F88EF51BBBBEF2004A885D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = VW;
+				TargetAttributes = {
+					32F88EFC1BBBBEF2004A885D = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					32F88F071BBBBEF2004A885D = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 32F88EF81BBBBEF2004A885D /* Build configuration list for PBXProject "KVPStore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 32F88EF41BBBBEF2004A885D;
+			productRefGroup = 32F88EFE1BBBBEF2004A885D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32F88EFC1BBBBEF2004A885D /* KVPStore */,
+				32F88F071BBBBEF2004A885D /* KVPStoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32ABEFDD1BBCFA3400DE13DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F88F061BBBBEF2004A885D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32F88EF91BBBBEF2004A885D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F88F031BBBBEF2004A885D /* KVPStore.m in Sources */,
+				32F88F191BBBBF07004A885D /* DBManager.m in Sources */,
+				32F88F1C1BBBC17A004A885D /* Constants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F88F041BBBBEF2004A885D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F88F241BBBF00A004A885D /* KVPStoreTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32F88F0B1BBBBEF2004A885D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32F88EFC1BBBBEF2004A885D /* KVPStore */;
+			targetProxy = 32F88F0A1BBBBEF2004A885D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		32F88F0F1BBBBEF2004A885D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32F88F101BBBBEF2004A885D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32F88F121BBBBEF2004A885D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		32F88F131BBBBEF2004A885D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		32F88F151BBBBEF2004A885D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KVPStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32F88F161BBBBEF2004A885D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KVPStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32F88EF81BBBBEF2004A885D /* Build configuration list for PBXProject "KVPStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F88F0F1BBBBEF2004A885D /* Debug */,
+				32F88F101BBBBEF2004A885D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32F88F111BBBBEF2004A885D /* Build configuration list for PBXNativeTarget "KVPStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F88F121BBBBEF2004A885D /* Debug */,
+				32F88F131BBBBEF2004A885D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32F88F141BBBBEF2004A885D /* Build configuration list for PBXNativeTarget "KVPStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F88F151BBBBEF2004A885D /* Debug */,
+				32F88F161BBBBEF2004A885D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32F88EF51BBBBEF2004A885D /* Project object */;
+}
